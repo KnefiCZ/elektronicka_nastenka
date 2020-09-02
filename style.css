@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    font-weight: bold;
+    margin: auto;
+    background-color: slategray;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 2%;
+  width: 46%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 42px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: blue;
+}
